@@ -4,16 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();   
-            Console.WriteLine("What is your favorite color?");
-            string favColor = Console.ReadLine();
-            Console.WriteLine("What is your favorite animal?");
-            string favAnimal = Console.ReadLine();
-            Console.WriteLine("What is your lucky number?");
-            int luckyNumber = int.Parse(Console.ReadLine());
-            Console.WriteLine($"{name}, you will see {luckyNumber} {favColor} {favAnimal}s this day, and your life will be complete!");
+            //Console.WriteLine("What is your name?");
+            //string name = Console.ReadLine();   
+            //Console.WriteLine("What is your favorite color?");
+            //string favColor = Console.ReadLine();
+            //Console.WriteLine("What is your favorite animal?");
+            //string favAnimal = Console.ReadLine();
+            //Console.WriteLine("What is your lucky number?");
+            //int luckyNumber = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"{name}, you will see {luckyNumber} {favColor} {favAnimal}s this day, and your life will be complete!");
 
+
+            Console.WriteLine(Methods.Add(9, 3));
+            Console.WriteLine(Methods.Multiply(9, 3));
+            Console.WriteLine(Methods.Divide(9, 3)); 
+            Console.WriteLine(Methods.Subtract(9, 3));
         }
     }
 }
